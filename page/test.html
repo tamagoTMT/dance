@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ダンス公演パンフレット</title>
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/responsive.css">
+        <link rel="stylesheet" href="../css/tab-header.css">
+        <link rel="stylesheet" href="../css/scroll-indicator.css">
+        
+        <!-- スクリプトファイルの読み込み -->
+        <script src="../js/script.js"></script>
+        <script src="../js/tab-header.js"></script> 
+        <script src="../js/scroll-indicateor.js"></script>
+    </head>
+    <body>
+        <!-- タブメニュー -->
+        <ul class="tab4">
+            <li class="tab4__item"><span class="tab4__link on" data-target="#title-section">Title</span></li>
+            <li class="tab4__item"><span class="tab4__link" data-target="#toc">Index</span></li>
+            <li class="tab4__item"><span class="tab4__link" data-target="#news1">News1</span></li>
+            <li class="tab4__item"><span class="tab4__link" data-target="#news2">News2</span></li>
+        </ul>
+        
+        <iframe src="scroll-indicator.html" 
+        style="border:none; 
+               width:200px; 
+               height:200px; 
+               position:fixed; 
+               bottom:3vh; 
+               left:50%; 
+               transform:translateX(-50%); 
+               z-index:9999; 
+               pointer-events:none; 
+               overflow: hidden;">
+        </iframe>
+
+        <section id="title-section"></section>
+
+        <section id="cover" class="section cover">
+            <div class="content">
+                <h1>表紙のタイトル</h1>
+                <p>表紙のサブタイトル</p>
+            </div>
+        </section>
+
+        <section id="comments" class="section comments">
+            <div class="content">
+                <h2>運営コメント</h2>
+                <p>ここに運営コメントが入ります。</p>
+            </div>
+        </section>
+
+        <section id="toc" class="section toc">
+            <div class="content">
+                <h2>目次</h2>
+                <ul id="toc-list">
+                    <!-- 目次が動的に挿入されます -->
+                </ul>
+            </div>
+        </section>
+
+        <section id="numbers" class="section numbers">
+            <!-- 各ナンバー紹介がここに挿入されます -->
+        </section>
+
+        <section id="news1" class="section news">
+            <div class="content">
+                <h2>お知らせ①</h2>
+                <p>お知らせ1の詳細内容です。</p>
+            </div>
+        </section>
+
+        <section id="news2" class="section news">
+            <div class="content">
+                <h2>お知らせ②</h2>
+                <p>お知らせ2の詳細内容です。</p>
+            </div>
+        </section>
+
+        <a href="https://www.instagram.com/find_me1228/" target="_blank" id="instagram-logo">
+            <img src="../photo/icon/Find me_logo.png" alt="Find Me on Instagram">
+        </a>
+        
+        <!-- ページトップへのリンク -->
+        <a href="#title-section" class="back-to-top">↑</a>
+
+    </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>出演者個別ページ</title>
+    <link rel="stylesheet" href="../css/performer.css">
+</head>
+<body>
+    <div class="container"></div>
+
+    <!-- 戻るボタン -->
+	<button id="backButton">Back</button>
+
+    <!-- スクリプトファイルの読み込み -->
+    <script src="../js/performer.js"></script>
+    <script>
+        document.getElementById('backButton').addEventListener('click', function() {
+            // セッションストレージからスクロール位置を取得
+            const scrollPosition = sessionStorage.getItem('scrollPosition');
+            
+            if (scrollPosition) {
+                // 戻る前のスクロール位置に戻る
+                window.history.back();  // 遷移元のページに戻る
+                setTimeout(() => {
+                    // 戻った後、保存された位置にスクロール
+                    window.scrollTo(0, scrollPosition);
+                }, 10);  // 戻った直後の位置を調整するための遅延
+            } else {
+                window.history.back();  // 通常の戻る処理
+            }
+        });
+    </script>
+</body>
+</html>
