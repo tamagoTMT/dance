@@ -1,105 +1,105 @@
-document.addEventListener("DOMContentLoaded", function () {
-  // ページロード時に最上部にスクロール
-  window.scrollTo(0, 0);
+document.addEventListener('DOMContentLoaded', function () {
+    // ページロード時に最上部にスクロール
+    window.scrollTo(0, 0);
 
-  let performerData = [];
+    let performerData = [];
 
-  Promise.all([
-    fetch("../json/performerData.json").then((response) => response.json()),
-    fetch("../json/content.json").then((response) => response.json()),
-  ])
-    .then(([performerData, contentData]) => {
-      const performers = performerData.performers;
+    // `performerData.json` を読み込む
+    fetch('../json/performerData.json')
+        .then(response => response.json())
+        .then(data => {
+            performerData = data.performers;
+        })
+        .catch(error => console.error('Error loading performerData JSON:', error));
 
-      renderContent(contentData);
-      const observerOptions = {
-        root: null,
-        rootMargin: "0px",
-        threshold: 0,
-      };
+    // `content.json` を読み込む
+    fetch('../json/content.json')
+        .then(response => response.json())
+        .then(data => {
+            renderContent(data);
 
-      const observer = new IntersectionObserver(function (entries, observer) {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("active");
-            observer.unobserve(entry.target);
-          }
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0
+            };
+
+            const observer = new IntersectionObserver(function (entries, observer) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                        observer.unobserve(entry.target);
+                        ///ちんちん
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.section').forEach(section => {
+                observer.observe(section);
+            });
+        })
+        .catch(error => console.error('Error loading JSON:', error));
+
+    const tabs = document.querySelectorAll('.tab4__link');
+    const sections = document.querySelectorAll('.section');
+
+    function activateTab(target) {
+        tabs.forEach(tab => {
+            tab.classList.remove('on');
+            if (tab.getAttribute('data-target') === target) {
+                tab.classList.add('on');
+            }
         });
-      }, observerOptions);
-
-      document.querySelectorAll(".section").forEach((section) => {
-        observer.observe(section);
-      });
-    })
-    .catch((error) => {
-      console.error("Error loading JSON:", error);
-    });
-
-  const tabs = document.querySelectorAll(".tab4__link");
-  const sections = document.querySelectorAll(".section");
-
-  function activateTab(target) {
-    tabs.forEach((tab) => {
-      tab.classList.remove("on");
-      if (tab.getAttribute("data-target") === target) {
-        tab.classList.add("on");
-      }
-    });
-  }
-
-  // 初期表示でTitleタブに下線を付ける
-  activateTab("#title-section");
-
-  tabs.forEach((tab) => {
-    tab.addEventListener("click", function () {
-      const target = this.getAttribute("data-target");
-      document.querySelector(target).scrollIntoView({ behavior: "smooth" });
-      activateTab(target);
-    });
-  });
-
-  // スクロールイベントでタブのアクティブを変更
-  window.addEventListener("scroll", function () {
-    let current = "#title-section";
-    sections.forEach((section) => {
-      const sectionTop = section.offsetTop - 80;
-      if (pageYOffset >= sectionTop) {
-        current = `#${section.getAttribute("id")}`;
-      }
-    });
-
-    if (current.startsWith("#number")) {
-      activateTab("#toc");
-    } else {
-      activateTab(current);
     }
-  });
 
-  // Instagramリンクを生成する関数
-  const renderInstagramLinks = (instagramIds) => {
-    return instagramIds
-      .filter((id) => id)
-      .map((id) => {
-        return `<a href="https://www.instagram.com/${id.replace(
-          "@",
-          ""
-        )}" target="_blank">
+    // 初期表示でTitleタブに下線を付ける
+    activateTab('#title-section');
+
+    tabs.forEach(tab => {
+        tab.addEventListener('click', function () {
+            const target = this.getAttribute('data-target');
+            document.querySelector(target).scrollIntoView({ behavior: 'smooth' });
+            activateTab(target);
+        });
+    });
+
+    // スクロールイベントでタブのアクティブを変更
+    window.addEventListener('scroll', function () {
+        let current = '#title-section';
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop - 80;
+            if (pageYOffset >= sectionTop) {
+                current = `#${section.getAttribute('id')}`;
+            }
+        });
+
+        if (current.startsWith('#number')) {
+            activateTab('#toc');
+        } else {
+            activateTab(current);
+        }
+    });
+
+    // Instagramリンクを生成する関数
+    const renderInstagramLinks = (instagramIds) => {
+        return instagramIds
+            .filter(id => id)
+            .map(id => {
+                return `<a href="https://www.instagram.com/${id.replace('@', '')}" target="_blank">
                             <img src="../photo/icon/instagram___icon_w_trans.png" alt="Instagram" class="instagram-icon">
                         </a>`;
-      })
-      .join("");
-  };
+            })
+            .join('');
+    };
 
-  const getPerformerNameById = (id) => {
-    const performer = performerData.find((performer) => performer.id === id);
-    return performer ? performer.name : "Unknown Performer";
-  };
+    const getPerformerNameById = (id) => {
+        const performer = performerData.find(performer => performer.id === id);
+        return performer ? performer.name : 'Unknown Performer';
+    };
 
-  const formatPerformerIds = (performers) => {
-    return performers
-      .map((performer) => performer.id.padStart(3, "0"))
-      .join(",");
-  };
+    const formatPerformerIds = (performers) => {
+        return performers.map(performer => performer.id.padStart(3, '0')).join(',');
+    };
 
     const renderNumberContent = (container, number, imgPath, index) => {
         const choreographerInstagramLinks = renderInstagramLinks(number.instagram || []);
@@ -123,16 +123,10 @@ document.addEventListener("DOMContentLoaded", function () {
     
         container.innerHTML = `
             <div class="content">
-                <h3 class="sample_text16" style="--number-color: ${
-                  number.color
-                };">M${index + 1} Title: ${number.title}</h3>
-                <p>Choreographer: ${
-                  number.choreographer
-                } ${choreographerInstagramLinks}</p>
+                <h3 class="sample_text16" style="--number-color: ${number.color};">M${index + 1} Title: ${number.title}</h3>
+                <p>Choreographer: ${number.choreographer} ${choreographerInstagramLinks}</p>
                 <div class="choreographer-photo-wrapper">
-                    <img src="${imgPath}" alt="${
-      number.choreographer
-    }" class="choreographer-photo">
+                    <img src="${imgPath}" alt="${number.choreographer}" class="choreographer-photo">
                 </div>
                 <h4>経歴</h4>
                 <p>${number.bioContent}</p>
@@ -144,58 +138,47 @@ document.addEventListener("DOMContentLoaded", function () {
                 </ul>
             </div>
         `;
-    document.querySelector("#numbers").appendChild(container);
-  };
+        document.querySelector('#numbers').appendChild(container);
+    };
 
-  const renderContent = (data) => {
-    // 表紙
-    document.querySelector("#cover .content h1").textContent = data.cover.title;
-    document.querySelector("#cover .content p").textContent =
-      data.cover.welcomeMessage;
+    const renderContent = (data) => {
+        // 表紙
+        document.querySelector('#cover .content h1').textContent = data.cover.title;
+        document.querySelector('#cover .content p').textContent = data.cover.welcomeMessage;
 
-    // 運営コメントセクション
-    const commentsSection = document.querySelector("#comments .content");
-    commentsSection.innerHTML = `<h2>${data.comments.title}</h2>`; // セクションタイトル
+        // 運営コメントセクション
+        const commentsSection = document.querySelector('#comments .content');
+        commentsSection.innerHTML = `<h2>${data.comments.title}</h2>`;  // セクションタイトル
 
-    // 複数の運営メンバーのコメントを表示
-    data.comments.members.forEach((member) => {
-      commentsSection.innerHTML += `
+        // 複数の運営メンバーのコメントを表示
+        data.comments.members.forEach(member => {
+            commentsSection.innerHTML += `
                 <div class="comment-wrapper">
-                    ${
-                      member.image
-                        ? `<img src="../${member.image}" alt="${member.name}" class="comment-photo">`
-                        : ""
-                    }
+                    ${member.image ? `<img src="../${member.image}" alt="${member.name}" class="comment-photo">` : ''}
                     <p><strong>${member.name}</strong>
-                    ${
-                      member.instagram
-                        ? renderInstagramLinks([member.instagram])
-                        : ""
-                    }
+                    ${member.instagram ? renderInstagramLinks([member.instagram]) : ''}
                     </p>
                     <p>${member.text}</p>
                 </div>
             `;
-    });
+        });
 
-    // 目次
-    const tocList = document.querySelector("#toc-list");
-    data.numbers.forEach((number, index) => {
-      const listItem = document.createElement("li");
-      listItem.innerHTML = `<a href="#${number.id}">M${index + 1}. ${
-        number.title
-      }, ${number.choreographer}</a>`;
-      tocList.appendChild(listItem);
-    });
+        // 目次
+        const tocList = document.querySelector('#toc-list');
+        data.numbers.forEach((number, index) => {
+            const listItem = document.createElement('li');
+            listItem.innerHTML = `<a href="#${number.id}">M${index + 1}. ${number.title}, ${number.choreographer}</a>`;
+            tocList.appendChild(listItem);
+        });
 
-    // 各ナンバー紹介
-    data.numbers.forEach((number, index) => {
-      const numberDiv = document.createElement("div");
-      numberDiv.className = "number section number-item";
-      numberDiv.id = number.id;
+        // 各ナンバー紹介
+        data.numbers.forEach((number, index) => {
+            const numberDiv = document.createElement('div');
+            numberDiv.className = 'number section number-item';
+            numberDiv.id = number.id;
 
-      const imgPath = `../${number.photo}`;
-      renderNumberContent(numberDiv, number, imgPath, index);
-    });
-  };
+            const imgPath = `../${number.photo}`;
+            renderNumberContent(numberDiv, number, imgPath, index);
+        });
+    };
 });
