@@ -104,12 +104,23 @@ document.addEventListener('DOMContentLoaded', function () {
     const renderNumberContent = (container, number, imgPath, index) => {
         const choreographerInstagramLinks = renderInstagramLinks(number.instagram || []);
         const performerIds = formatPerformerIds(number.performers);
-
-        const performersList = number.performers.map(performer => {
-            const name = getPerformerNameById(performer.id);
-            return `<li><a href="performer.html?id=${performer.id}">${name}</a></li>`;
-        }).join('');
-
+    
+        // Performersのリストを生成。配列または文字列に対応。
+        let performersList = '';
+        if (number.performers && Array.isArray(number.performers)) {
+            performersList = number.performers.map(performer => {
+                const name = getPerformerNameById(performer.id);
+                return `<li><a href="performer.html?id=${performer.id}">${name}</a></li>`;
+            }).join('');
+        } else if (typeof number.performers === 'string') {
+            performersList = `<li>${number.performers}</li>`; // 文字列の場合、リンクなしで表示
+        }
+    
+        // Membersセクションのリンクを表示するかチェック
+        const membersSection = performersList
+            ? `<h4><a href="./performer.html?id=${performerIds}">Members</a></h4>`
+            : ''; // 0件の場合はリンクもメンバーリストも表示しない
+    
         container.innerHTML = `
             <div class="content">
                 <h3 class="sample_text16" style="--number-color: ${number.color};">M${index + 1} Title: ${number.title}</h3>
@@ -121,7 +132,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 <p>${number.bioContent}</p>
                 <h4>${number.commentTitle}</h4>
                 <p>${number.comment}</p>
-                <h4><a href="/page/performer.html?id=${performerIds}">Members</a></h4>
+                ${membersSection}
                 <ul>
                     ${performersList}
                 </ul>
