@@ -218,3 +218,26 @@ p {
 a {
     text-decoration: none;  /* リンクの下線を消す */
 }
+
+.staff-credits {
+    padding: 10px;
+    max-width: 70%; /* コンテナ全体の幅を画面の70%に制限 */
+    margin-left: 0; /* 左揃えに設定 */
+  }
+  
+  .staff-credits div {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 1px solid black; /* 担当名と名前をつなぐ下線を引く */
+    width: 100%; /* 下線の長さを調整 */
+  }
+  
+  .staff-credits div span {
+    text-align: left;
+  }
+  
+  .staff-credits div span:first-child {
+    min-width: 120px; /* 担当名の幅を設定 */
+    padding-right: 10px; /* 担当名と名前の間の間隔を調整 */
+  }
