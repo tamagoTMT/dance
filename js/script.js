@@ -164,7 +164,7 @@ document.addEventListener("DOMContentLoaded", function () {
       number.choreographer
     }" class="choreographer-photo">
                 </div>
-                <h4>経歴</h4>
+                <h4>History</h4>
                 <p>${number.bioContent}</p>
                 <h4>${number.commentTitle}</h4>
                 <p>${number.comment}</p>
@@ -213,7 +213,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const listItem = document.createElement("li");
       listItem.innerHTML = `<a href="#${number.id}">M${index + 1}. ${
         number.title
-      }, ${number.choreographer}</a>`;
+      }/ ${number.choreographer}</a>`;
       tocList.appendChild(listItem);
     });
 
