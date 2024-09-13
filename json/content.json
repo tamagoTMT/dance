@@ -1,10 +1,10 @@
 {
   "cover": {
-    "title": "ダンス公演パンフレット",
-    "welcomeMessage": "ようこそ、ダンス公演へ！"
+    "title": "-Message-",
+    "welcomeMessage": "本日は、ご来場いただきありがとうございます。<br>Find Me.はこれまでクラブイベントを中心に、ShowCase,Number,合宿等様々なイベントを行ってまいりました。<br>本公演は今までとは異なり、Find Meとしては新たな第一歩となる初のホールでのイベントとなります。<br>短い時間ではございますが、本イベントにかかわるすべてのダンサー,スタッフの方々全員の<br>輝く姿を見届けていただけますと幸いです。<br><br>-Find Me. 運営一同-"
   },
   "comments": {
-    "title": "運営コメント",
+    "title": "-From Managers-",
     "members": [
       {
         "name": "主催:梅津 大輝",
