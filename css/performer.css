@@ -18,7 +18,7 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.7); /* 白の薄い背景 */
+  background: rgba(255, 255, 255, 0); /* 白の薄い背景 */
   z-index: -1;
 }
 
@@ -27,7 +27,7 @@ body::before {
   margin: 0 auto;
   max-width: 800px;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
@@ -86,9 +86,9 @@ ul li {
   border-radius: 50%;
   width: 65px;
   height: 65px;
-  font-size: 24px;
+  font-size: 16px; /* フォントサイズを調整 */
   text-align: center;
-  line-height: 50px;
+  line-height: 65px; /* ボタンの高さと一致させることで中央に揃える */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   z-index: 1000;
