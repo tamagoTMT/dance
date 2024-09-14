@@ -160,7 +160,7 @@ document.addEventListener("DOMContentLoaded", function () {
                   number.choreographer
                 } ${choreographerInstagramLinks}</p>
                 <div class="choreographer-photo-wrapper">
-                    <img src="${imgPath}" alt="${
+                    <img src="${imgPath}" loading="lazy" alt="${
       number.choreographer
     }" class="choreographer-photo">
                 </div>
@@ -180,7 +180,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const renderContent = (data) => {
     // 表紙
     document.querySelector("#cover .content h1").textContent = data.cover.title;
-    document.querySelector("#cover .content p").innerHTML =    data.cover.welcomeMessage;
+    document.querySelector("#cover .content p").innerHTML =
+      data.cover.welcomeMessage;
 
     // 運営コメントセクション
     const commentsSection = document.querySelector("#comments .content");
