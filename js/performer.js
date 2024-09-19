@@ -56,10 +56,6 @@ function renderPerformers(performers, container) {
               "@",
               ""
             )}" target="_blank">${performer.instagram}</a></p>
-            <p><strong>X (Twitter):</strong> <a href="https://twitter.com/${performer.twitter.replace(
-              "@",
-              ""
-            )}" target="_blank">${performer.twitter}</a></p>
             <p><strong>あなたにとってダンスとは:</strong> ${
               performer.whatIsDance
             }</p>
