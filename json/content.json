@@ -13,6 +13,12 @@
         "instagram": "@taikiumezu"
       },
       {
+        "name": "主催:原 周石",
+        "text": "-",
+        "image": "photo/photo/manage/shusekihara.jpg",
+        "instagram": "@shuseki16"
+      },
+      {
         "name": "運営,制作:金子 拓海",
         "text": "本番までにコメント書く",
         "instagram": "ta93.tykkmnn"
@@ -400,7 +406,7 @@
       "bioContent": "ジャズダンスサークルACE OG",
       "commentTitle": "Comment",
       "comment": "推しと私。<br>これは報われないおとぎ話.｡◦♡",
-      "instagram": ["_pyong.suke_", "io39ice"],
+      "instagram": ["_pyong.suke_"],
       "performers": [
         { "id": "044" },
         { "id": "045" },
