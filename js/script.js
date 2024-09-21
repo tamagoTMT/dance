@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "@",
           ""
         )}" target="_blank">
-                            <img src="../photo/icon/instagram___icon_w_trans.png" alt="Instagram" class="instagram-icon">
+                            <img src="../photo/icon/instagram_icon.png" alt="Instagram" class="instagram-icon">
                         </a>`;
       })
       .join("");
