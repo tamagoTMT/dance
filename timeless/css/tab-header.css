@@ -1,0 +1,57 @@
+/* タブメニューのスタイル */
+.tab4 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.tab4__item {
+    flex: 1;
+}
+
+.tab4__link {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: #444;
+    cursor: pointer;
+}
+
+.tab4__link:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #444;
+    transition: all 0.4s ease-out;
+}
+
+.tab4__link:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #444;
+    transition: all 0.4s ease-out;
+}
+
+.tab4__link.on:before, .tab4__link.on.default:before {
+    width: 50%;
+}
+
+.tab4__link.on:after, .tab4__link.on.default:after {
+    width: 50%;
+}
