@@ -1,52 +1,41 @@
 {
   "cover": {
     "title": "-Message-",
-    "welcomeMessage": "本日は、ご来場いただきありがとうございます。<br>Find me.はこれまでクラブイベントを中心に、人と人をつなぐイベントとしてShowCase・Number・合宿等様々な活動を行ってまいりました。<br>本公演は今までとは異なり、Find me.としては新たな第一歩となる初のホールでのイベントとなります。<br>短い時間ではございますが、本イベントにかかわるすべてのダンサー、スタッフの方々全員の<br>輝く姿を見届けていただけますと幸いです。<br><br>-Find me. 運営一同-"
+    "welcomeMessage": "メッセージ<br><br>-Find me. 運営一同-"
   },
   "comments": {
     "title": "-From Managers-",
     "members": [
       {
         "name": "主催:梅津 大輝",
-        "text": "Find me.が初のホール公演になります。<br>タイトルの通りどんな人でもその人が持つ可能性を広げたい、挑戦したいなど、そんな機会を身近に感じられる、提供したいという思いがここまで大きくなり、ホールでの開催が決まりました。<br>今回もステキな振付者、出演者、ゲストさんにお集まりいただいたので、是非最後までお楽しみください。",
+        "text": "メッセージ",
         "image": "photo/photo/manage/taikiumezu.jpg",
         "instagram": "@taikiumezu"
       },
       {
         "name": "主催:原 周石",
-        "text": "このステージで沢山の才能が輝く事を楽しみにしています。<br>ぜひ、目を凝らし、耳を澄ませ、心を躍らせながらステージに溢れるパワーを感じてください。<br>きっと素敵な「何か」を見つけられると信じています！！",
+        "text": "メッセージ",
         "image": "photo/photo/manage/shusekihara.jpg",
         "instagram": "@shuseki16"
       },
       {
         "name": "運営,制作:金子 拓海",
-        "text": "ご来場いただきありがとうございます。素敵なダンサーの皆様と本イベントを創りあげられることを大変嬉しく思います。<br>長いリハ期間を凝縮した、濃い2時間となりますので短い時間ではございますがお楽しみください。",
+        "text": "メッセージ",
         "instagram": "ta93.tykkmnn"
       },
       {
         "name": "運営,制作:梅津 真珠 ",
-        "text": "本日はご来場いただき、誠にありがとうございます。<br>ダンスによって得られるものは沢山あると思っています。時には感動し心が震えたり、時期や人によって感じ方や表現が変わったり。<br>その瞬間の輝きをFind me.運営としてサポートしていけたらなと思っております。お時間の許す限りお楽しみください。",
+        "text": "メッセージ",
         "instagram": "mamitasu_1227"
       },
       {
         "name": "運営,制作:兼松 和也 ",
-        "text": "Find me.始まって以来、初のホールイベントを開催できることをとてもうれしく思います。<br>以前から開催していたクラブイベントでは感じれない魅力がホール公演にはあります。<br>ぜひ最後までお楽しみください。",
+        "text": "メッセージ",
         "instagram": "gold_pinetree26"
       }
     ]
   },
   "numbers": [
-    {
-      "id": "number 1",
-      "title": "Opening①",
-      "choreographer": "監修:金子拓海",
-      "bioContent": "-",
-      "commentTitle": "Comment",
-      "comment": "Find me. next 前半振付師陣によるOPナンバーです。",
-      "instagram": ["ta93.tykkmnn"],
-      "performers": [],
-      "photo": "photo/photo/choreo/jpeg/choreo20.jpg"
-    },
     {
       "id": "number 2",
       "title": "RENA×YUNA number",
@@ -68,413 +57,6 @@
         { "id": "122" }
       ],
       "photo": "photo/photo/choreo/jpeg/choreo4.jpg"
-    },
-    {
-      "id": "number 3",
-      "title": "一途",
-      "choreographer": "住友",
-      "bioContent": "東京海洋大学ダンス部EXSEAD OG",
-      "commentTitle": "Comment",
-      "comment": "仲間と共に闘い、駆け抜ける4分間。<br>「愛ほど歪んだ呪いはないよ」",
-      "instagram": ["_sumi.saki_", "kb0105tm"],
-      "performers": [
-        { "id": "012" },
-        { "id": "013" },
-        { "id": "014" },
-        { "id": "015" },
-        { "id": "016" },
-        { "id": "017" },
-        { "id": "018" }
-      ],
-      "photo": "photo/photo/choreo/jpeg/choreo2.jpg"
-    },
-    {
-      "id": "number 4",
-      "title": "shi-h☆のアイスクリーム屋さん",
-      "choreographer": "shi-h☆",
-      "bioContent": "現役 Passions Gold メンバー<br>元Bリーグチアリーダー<br>某プロジェクトコレオグラファー<br>LIVE 振付・出演<br>MV 振付・出演<br>モーションアクター・スーツアクター<br>ダンスインストラクター（不定期）<br>イベントMC<br>など",
-      "commentTitle": "Comment",
-      "comment": "｢ご飯は笑顔☺｣<br>私たちはkawaiiアイスクリーム屋さん🍨<br>会場の皆さんに美味しい&可愛いのプレゼントを！！<br>あなたの推しはだぁれ！？♡<br>今日のあなたに､笑顔がひとつ増えますように💭♡",
-      "instagram": ["__s__rai"],
-      "performers": [
-        { "id": "123" },
-        { "id": "124" },
-        { "id": "126" },
-        { "id": "127" },
-        { "id": "128" },
-        { "id": "129" },
-        { "id": "130" },
-        { "id": "131" },
-        { "id": "132" },
-        { "id": "133" },
-        { "id": "134" },
-        { "id": "136" }
-      ],
-      "photo": "photo/photo/choreo/jpeg/choreo15.jpg"
-    },
-    {
-      "id": "number 5",
-      "title": "キュートアグレッション",
-      "choreographer": "いちか",
-      "bioContent": "ダンスサークルDanceCRAZE 13th",
-      "commentTitle": "Comment",
-      "comment": "落ち着いてオシャレな曲調に対し、歌詞の表現のインパクトが強いため、オシャレかつ強めなイメージをダンスで表現しました。<br>所々振りにハートを散りばめているのでよければ探してみてください👀",
-      "instagram": ["ichika_msw"],
-      "performers": [
-        { "id": "107" },
-        { "id": "108" },
-        { "id": "109" },
-        { "id": "110" },
-        { "id": "111" },
-        { "id": "112" },
-        { "id": "113" },
-        { "id": "114" },
-        { "id": "115" }
-      ],
-      "photo": "photo/photo/choreo/jpeg/choreo10.jpg"
-    },
-    {
-      "id": "number 6",
-      "title": "銀河鉄道",
-      "choreographer": "藍",
-      "bioContent": "Jaggy Dance Club 43期",
-      "commentTitle": "Comment",
-      "comment": "「ほんとうの幸いってなんだろう」",
-      "instagram": ["aioo181004"],
-      "performers": [
-        { "id": "001" },
-        { "id": "002" },
-        { "id": "003" },
-        { "id": "004" },
-        { "id": "005" },
-        { "id": "006" },
-        { "id": "007" },
-        { "id": "008" },
-        { "id": "009" },
-        { "id": "010" },
-        { "id": "011" }
-      ],
-      "photo": "photo/photo/choreo/jpeg/choreo6.jpg"
-    },
-    {
-      "id": "number 7",
-      "title": "Pick Up Dancers ①",
-      "choreographer": "anme",
-      "bioContent": "・青木泉<br>元新体操選手。アメリカやイスラエルに単身渡航し現地のトレーニングに参加。また文化や自然からも影響を受ける。<br>国内外の舞台・イベント・メディア出演の他、<br>競技を超えた表現としての新体操パフォーマンス作品の制作、アートイベント主催や衣装制作など型にはまらずクリエイティブに活動する。<br><br>出演代表作<br>○森山開次　新版NINJA @新国立劇場 中劇場 出演<br>○アメリカズゴットタレント シーズン17 セミファイナリスト<br>○Legend Tokyo X -10th ANNIVERSARY FESTIVAL-オープニングアクトゲストパフォーマー @舞浜アンフィシアター 出演・振付<br>その他多数<br><br>・Tokiwa<br>東京都出身。<br>3歳から新体操を始める。<br>高校3年間は単身で長崎県へ、長崎女子高等学校の新体操部に所属。寮生活をしながら新体操選手として全国大会等出場し、選手経験を積む。高校卒業後、日本女子体育大学舞踊学専攻入学。大学入学を機にダンスを学びはじめる。jazz、コンテンポラリー、インプロを中心に活動中しており、振り付け等も行なっている。またテクノロジーパフォーマンスチーム「M++dancers」「team ECRIN」のメンバーであり、新体操×ダンスをLEDリボンを用いたパフォーマンス等を世界に広めながら日本全国各地へ活動を広げている。<br><br>出演代表作<br>・BMW The 7FORWARD アンベールパフォーマンスダンサー出演<br>・原田産業株式会社創立100周年記念式典LEDリボンパフォーマー出演<br>・日向坂46 9thシングル『One choice』MVダンサー出演<br>・TOMOO「super ball」MVダンサー出演<br>・BUMP OF CHICKEN『邂逅MVダンサー<br>・日比谷フェスティバル2024 ダンサー出演<br>・SusHi Tech Tokyo 2024 パフォーマー出演<br>・アイナジエンド&坂東雄大『創造』MVダンサー出演",
-      "commentTitle": "Comment",
-      "comment": "",
-      "instagram": ["@izumiaoki_", "@tockey_wawawa"],
-      "performers": [],
-      "photo": "photo/photo/choreo/jpeg/guest2.jpg"
-    },
-    {
-      "id": "number 8",
-      "title": "深海魚",
-      "choreographer": "ろう",
-      "bioContent": "ダンスサークルACE 現役",
-      "commentTitle": "Comment",
-      "comment": "曲の雰囲気を自分が思うがままにダンスで表現しました",
-      "instagram": ["ro.udatsu"],
-      "performers": [
-        { "id": "100" },
-        { "id": "101" },
-        { "id": "102" },
-        { "id": "103" },
-        { "id": "104" },
-        { "id": "105" },
-        { "id": "106" },
-        { "id": "107" },
-        { "id": "111" },
-        { "id": "112" }
-      ],
-      "photo": "photo/photo/choreo/jpeg/choreo12.jpg"
-    },
-    {
-      "id": "number 9",
-      "title": "Anytime Anywhere",
-      "choreographer": "NANAMI",
-      "bioContent": "ジャズダンスサークルFLAP OG",
-      "commentTitle": "Comment",
-      "comment": "いつでもどこでも、<br>あなたのことを想っています。<br>だから、あなたは今と向き合って。<br><br>孤独に迷う日々もあるかもしれない<br>どんなに暗くて涙でいっぱいになっても<br>それでもきっと、夜は明けるから。",
-      "instagram": ["_nn.53"],
-      "performers": [
-        { "id": "060" },
-        { "id": "155" },
-        { "id": "156" },
-        { "id": "157" },
-        { "id": "158" },
-        { "id": "159" },
-        { "id": "160" },
-        { "id": "161" },
-        { "id": "162" },
-        { "id": "163" },
-        { "id": "164" },
-        { "id": "165" },
-        { "id": "166" },
-        { "id": "167" },
-        { "id": "168" },
-        { "id": "169" },
-        { "id": "170" },
-        { "id": "171" },
-        { "id": "172" }
-      ],
-      "photo": "photo/photo/choreo/jpeg/choreo8.jpg"
-    },
-    {
-      "id": "number 10",
-      "title": "Pick Up Dancers ②",
-      "choreographer": "Infinity Twiggz",
-      "bioContent": "",
-      "commentTitle": "Comment",
-      "comment": "",
-      "instagram": ["infinitytwiggz"],
-      "performers": [],
-      "photo": "photo/photo/choreo/jpeg/guest3.jpg"
-    },
-    {
-      "id": "number 11",
-      "title": "Overflowing",
-      "choreographer": "すずきゆうき",
-      "bioContent": "ジャズダンスサークルFreeD OB",
-      "commentTitle": "Comment",
-      "comment": "This is a story of love.<br><br>“things change, and we can't do nothing about it <br>just letting go, feeling lighter, and becoming filled<br>Overflowing”",
-      "instagram": ["suzuki_yukyan1114"],
-      "performers": [
-        { "id": "070" },
-        { "id": "071" },
-        { "id": "072" },
-        { "id": "073" },
-        { "id": "074" },
-        { "id": "075" },
-        { "id": "076" },
-        { "id": "077" },
-        { "id": "078" },
-        { "id": "079" },
-        { "id": "080" },
-        { "id": "081" },
-        { "id": "082" }
-      ],
-      "photo": "photo/photo/choreo/jpeg/choreo11.jpg"
-    },
-    {
-      "id": "number 12",
-      "title": "Opening②",
-      "choreographer": "監修:金子拓海",
-      "bioContent": "-",
-      "commentTitle": "Comment",
-      "comment": "Find me. next 後半振付師陣によるOPナンバーです。",
-      "instagram": ["ta93.tykkmnn"],
-      "performers": [],
-      "photo": "photo/photo/choreo/jpeg/choreo20.jpg"
-    },
-    {
-      "id": "number 13",
-      "title": "みぃちゃんらんど",
-      "choreographer": "光月",
-      "bioContent": "2013年<br>・ディズニーライブ！CM出演<br>・Dance nation2013出演<br>・Prizmmy☆バックダンサー<br>・チームしゃちほこバックダンサー<br>2018年<br>・ナオトインティライミ 名古屋ドーム バックダンサー<br>2019年<br>・カリフォルニアディズニーランド パレード・ステージショー出演<br>2021年<br>・Da-iCE 「Kartell 」MV出演<br>・SHOWDINER makeapiece1期 きらめくサンシャインフラワー 7月〜毎週金曜日出演<br>・愛知 えんとつ町のプペル 選抜ステージショー・パレード出演<br>2022年<br>・SHOWDINER makeapiece2期 みるきぃえんじぇる 毎週日曜日出演<br>2023年<br>・SHOWDINER makeapiece3期 ミラクルベアーズ5月〜7月毎週金曜日出演<br>・surprise !!neoレギュラー出演<br>2024年<br>・XROOMレギュラー出演<br>・肉フェス オープニングアクト出演<br>・VTuber羽渕やむ ダンス指導・振付<br>その他<br>・ダンスコンテスト、イベント出演<br>・ステージショー出演<br>・アイドル振付<br>・アイドルレッスン<br>・ダミーダンサー<br>・モーションキャプチャー<br>・ナンバー出展<br>・振付アシスタント<br>現テーマパークエンターテイナー、XROOMレギュラー出演中<br>",
-      "commentTitle": "Comment",
-      "comment": "Find me初ホール開催おめでとうございます🎉💗いつもありがとうございます✨3度目の出展となる今回は、今年の1月〜3月まで開催されていたミニーちゃんのパレードをぎゅぎゅっと詰め込んだナンバーを作りました🐭💖🎀みなさんに楽しんで笑顔になっていただけるように、みんなで可愛いの研究や練習をたくさん頑張りました☺️🩷致死量の可愛いを摂取していってください🎀💖✨かわいいかわいい26人のみんなと作る、私のファンダーランドへようこそ🦄🎀🍭🌎💖✨🌈",
-      "instagram": ["_mizuki0926"],
-      "performers": [
-        { "id": "019" },
-        { "id": "020" },
-        { "id": "021" },
-        { "id": "022" },
-        { "id": "023" },
-        { "id": "024" },
-        { "id": "025" },
-        { "id": "026" },
-        { "id": "027" },
-        { "id": "028" },
-        { "id": "029" },
-        { "id": "030" },
-        { "id": "031" },
-        { "id": "032" },
-        { "id": "033" },
-        { "id": "034" },
-        { "id": "035" },
-        { "id": "036" },
-        { "id": "037" },
-        { "id": "038" },
-        { "id": "039" },
-        { "id": "040" },
-        { "id": "041" },
-        { "id": "042" },
-        { "id": "043" },
-        { "id": "173" }
-      ],
-      "photo": "photo/photo/choreo/jpeg/choreo13.JPEG"
-    },
-    {
-      "id": "number 14",
-      "title": "monologue",
-      "choreographer": "なつみ",
-      "bioContent": "ジャズダンスサークルACE OG",
-      "commentTitle": "Comment",
-      "comment": "後悔。羨望。諦め。でも、生きていくこと。",
-      "instagram": ["na7__choco"],
-      "performers": [
-        { "id": "060" },
-        { "id": "061" },
-        { "id": "062" },
-        { "id": "063" },
-        { "id": "064" },
-        { "id": "065" },
-        { "id": "066" },
-        { "id": "067" },
-        { "id": "068" },
-        { "id": "069" },
-        { "id": "110" }
-      ],
-      "photo": "photo/photo/choreo/jpeg/choreo7.jpg"
-    },
-    {
-      "id": "number 15",
-      "title": "Sayaka Ishida number",
-      "choreographer": "Sayaka Ishida",
-      "bioContent": "JP THE WAVY 『Mango Loco』MV出演<br>Kis-My-Ft2 『C'monover』MV出演<br>他個人ナンバー出展など",
-      "commentTitle": "Comment",
-      "comment": "シックでパワフルなわたしたちのエネルギーをぜひお楽しみください！",
-      "instagram": ["06sayaka20"],
-      "performers": [
-        { "id": "137" },
-        { "id": "138" },
-        { "id": "139" },
-        { "id": "140" },
-        { "id": "141" },
-        { "id": "142" },
-        { "id": "143" }
-      ],
-      "photo": "photo/photo/choreo/jpeg/choreo14.jpg"
-    },
-    {
-      "id": "number 16",
-      "title": "time trip",
-      "choreographer": "Ria",
-      "bioContent": "・Legend univers<br>アジア文化交流審査員特別賞受賞<br>びあ特別賞受賞<br>・白浜アドベンチャーワールド 2018演出振付<br>/EXILE MV出演<br>/関西ジャニーズJr.LIVEダンサー<br>/Twenty4-7 LIVEダンサー<br>/ONE★DRAFT ツアーダンサー<br>/BRIDGET ツアーダンサー<br>/ヤバいTシャツ屋さんLIVEダンサー<br><br>アーティスト振付<br>當山みれい.山猿 茉ひる 鈴木鈴木<br>KIRA.MAY's .erica.ROYALcomfort.MINMI等",
-      "commentTitle": "Comment",
-      "comment": "みなさんは最近いつ手紙を書きましたか？📝<br>ちょっぴり恥ずかしくなるけど<br>大切な人には文字で<br>伝えてみることもいいかもしれません♡<br><br>みんなで伝えます🫧",
-      "instagram": [],
-      "performers": [
-        { "id": "144" },
-        { "id": "145" },
-        { "id": "146" },
-        { "id": "147" },
-        { "id": "148" },
-        { "id": "149" },
-        { "id": "150" },
-        { "id": "151" },
-        { "id": "152" },
-        { "id": "153" },
-        { "id": "154" }
-      ],
-      "photo": "photo/photo/choreo/jpeg/choreo3.jpg"
-    },
-    {
-      "id": "number 17",
-      "title": "Pick Up Dancers ③",
-      "choreographer": "Himesho",
-      "bioContent": "2015年 8月<br>ブロードウェイミュージカル「二都物語」ギャベル役<br>2016年 4月<br>Japan Youth Dance Festival 団体戦 3位 個人賞 受賞<br>2017年, 2018年 8月<br>浅草サンバカーニバル S1サンバ・リーグ 6位<br>2021年 2月<br>内田彩「リボンをギュッと」MV出演<br>2021年 8月<br>東京2020パラリンピック 開会式出演<br>2023年 3月～6月<br>RED TOKYO PERFORMER<br>2023年 7月<br>NEW AGE 「竹内唯人」バックダンサー出演<br>2023年 12月<br>YouTube Fan Fest 「スカイピース with Friends」<br>バックダンサー出演<br>2024年 2月<br>Ramerry LIVE 「HEART」バックダンサー出演<br>2024年 3月<br>ダンスチーム｢Mischmasch｣設立<br>2024年 5月<br>肉フェス2024 LIFE STYLE with DOGS × NEWAGE<br>・オープニングアクト<br>・「ベリーグッドマン」バックダンサー出演<br>2024年 6月<br>「ロウムメイト」CM出演<br><br>他、多数ダンスイベントへの作品出展、出演",
-      "commentTitle": "Comment",
-      "comment": "",
-      "instagram": ["himesho_26"],
-      "performers": [],
-      "photo": "photo/photo/choreo/jpeg/guest1.jpg"
-    },
-    {
-      "id": "number 18",
-      "title": "タイムカプセル",
-      "choreographer": "金子拓海",
-      "bioContent": "フリーランスシステムエンジニア<br>DanceCRAZE 6th<br><br>The BEST 7 振付<br>HIDE & SEEK FESTIVAL VOL.17　振付 <br>Treasure Box vol1,2 振付<br><br>好きな食べ物はトマト,チーズ。多忙な9月が終わったらFF14やりたい。<br>",
-      "commentTitle": "Comment",
-      "comment": "祝 Find me.初のホール公演！！<br><br>少人数で切なく温かい作品を作りたく、素敵な方々に集まっていただきました。<br>当初は出演者数5人で作ろうと思ったのですが、カノンの人数が足りなかったため7人に増えました。制作途中で気が変わってカノンやめました()",
-      "instagram": ["ta93.tykkmnn"],
-      "performers": [
-        { "id": "096" },
-        { "id": "097" },
-        { "id": "098" },
-        { "id": "099" },
-        { "id": "101" },
-        { "id": "102" },
-        { "id": "115" }
-      ],
-      "photo": "photo/photo/choreo/jpeg/choreo9.jpg"
-    },
-    {
-      "id": "number 19",
-      "title": "｢絶対アイドル辞めないで！｣",
-      "choreographer": "ぴくみん",
-      "bioContent": "ジャズダンスサークルACE OG",
-      "commentTitle": "Comment",
-      "comment": "推しと私。<br>これは報われないおとぎ話.｡◦♡",
-      "instagram": ["_pyong.suke_"],
-      "performers": [
-        { "id": "044" },
-        { "id": "045" },
-        { "id": "046" },
-        { "id": "047" },
-        { "id": "048" },
-        { "id": "049" },
-        { "id": "050" },
-        { "id": "051" },
-        { "id": "052" },
-        { "id": "053" },
-        { "id": "054" },
-        { "id": "055" },
-        { "id": "056" },
-        { "id": "057" },
-        { "id": "058" },
-        { "id": "059" }
-      ],
-      "photo": "photo/photo/choreo/jpeg/choreo5.jpg"
-    },
-    {
-      "id": "number 20",
-      "title": "Pick Up Dancers ④",
-      "choreographer": "Ken+sae",
-      "bioContent": "",
-      "commentTitle": "Comment",
-      "comment": "",
-      "instagram": [],
-      "performers": [],
-      "photo": "photo/photo/choreo/jpeg/guest4.jpg"
-    },
-    {
-      "id": "number 21",
-      "title": "運命",
-      "choreographer": "しゅなかれい",
-      "bioContent": "しゅんな:ジャズダンスサークルaccessOG<br>かれい　:ジャズダンスサークルACE OG",
-      "commentTitle": "Comment",
-      "comment": "人は過ぎた人生に運命という言葉を重ねて、未来の可能性まで狭めてしまうけどあなたの未来なんて誰にも何も分からない<br><br>『辿ってきた軌跡が道になるんだもの<br>辿ってきた奇跡が答えになるんだもの』<br><br>いま立ち止まっているあなたへ<br>前を向いて自分を信じて歩み出せますように",
-      "instagram": ["shunnaa01", "oekaki_kreon.918"],
-      "performers": [
-        { "id": "083" },
-        { "id": "084" },
-        { "id": "085" },
-        { "id": "086" },
-        { "id": "087" },
-        { "id": "088" },
-        { "id": "089" },
-        { "id": "090" },
-        { "id": "091" },
-        { "id": "092" },
-        { "id": "093" },
-        { "id": "094" },
-        { "id": "095" },
-        { "id": "098" }
-      ],
-      "photo": "photo/photo/choreo/jpeg/choreo1.jpg"
-    },
-    {
-      "id": "number 22",
-      "title": "Ending",
-      "choreographer": "-",
-      "bioContent": "",
-      "commentTitle": "Comment",
-      "comment": "All Dancers",
-      "instagram": [],
-      "performers": [],
-      "photo": "photo/photo/choreo/jpeg/choreo20.jpg"
     }
   ]
 }
