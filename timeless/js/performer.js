@@ -51,7 +51,6 @@ function renderPerformers(performers, container) {
     performerDiv.innerHTML = `
             <h3>${performer.name}</h3>
             <div class="choreographer-photo-wrapper"></div>
-            <p><strong>所属:</strong> ${performer.affiliation}</p>
             <p><strong>Instagram:</strong> <a href="https://www.instagram.com/${performer.instagram.replace(
               "@",
               ""
