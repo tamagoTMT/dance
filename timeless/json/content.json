@@ -1,8 +1,4 @@
 {
-  "cover": {
-    "title": "-Message-",
-    "welcomeMessage": "メッセージ<br><br>-Find me. 運営一同-"
-  },
   "comments": {
     "title": "-From Managers-",
     "members": [
@@ -14,7 +10,7 @@
       },
       {
         "name": "主催:原 周石",
-        "text": "メッセージ",
+        "text": "本日はTimelessにご来場いただきありがとうございます。<br>今回ダンスイベントを開催するにあたりどんなテーマがいいのかを考えました。その中ででたものが「再演」というものでした。<br>作品を作り上げる中で生まれる技術の向上、感情の成熟、知識の蓄積、そしてそれ自体がもつそのパワー。さらにそれを人に届けるというタイミングで生じる様々な心の揺らぎ、揺さぶり。作品が時を超えそれらを継承し、さらに新たな人々に届き広がっていく。そんな時間になることを目指し望んでおります。<br>ぜひこの公演を見ながら聴きながら感じながらお楽しみください。",
         "image": "photo/photo/manage/shusekihara.jpg",
         "instagram": "shuseki16"
       }
@@ -57,7 +53,7 @@
         { "id": "101" },
         { "id": "102" }
       ],
-      "photo": "photo/photo/choreo/jpeg/shusekihara.jpg"
+      "photo": "photo/photo/choreo/jpeg/016.jpg"
     },
     {
       "title": "Pick Up Dancers ①（12/7のみ）",
@@ -160,7 +156,7 @@
       ],
       "photo": "photo/photo/choreo/jpeg/010.jpg"
     },
-    
+
     {
       "title": "As long as...",
       "choreographer": "miu_______________",
@@ -230,7 +226,7 @@
       "bioContent": "",
       "commentTitle": "Comment",
       "comment": "シアターダンスに魅せられてしまった3人です。<br>まずは偉大な振付家に敬意を。<br>幾度となく影響を受けたこのナンバーを通して、シンプルな格好良さをお届けできたらと思います。",
-      "instagram": ["naoya_matsude","kyuno_rika","yurino.5"],
+      "instagram": ["naoya_matsude", "kyuno_rika", "yurino.5"],
       "performers": [],
       "photo": "photo/photo/choreo/jpeg/guest3.jpg"
     },
@@ -297,12 +293,5 @@
       ],
       "photo": "photo/photo/choreo/jpeg/008.jpg"
     }
-
-
-
-
-
-
-
   ]
 }

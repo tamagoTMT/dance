@@ -178,11 +178,6 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   const renderContent = (data) => {
-    // 表紙
-    document.querySelector("#cover .content h1").textContent = data.cover.title;
-    document.querySelector("#cover .content p").innerHTML =
-      data.cover.welcomeMessage;
-
     // 運営コメントセクション
     const commentsSection = document.querySelector("#comments .content");
     commentsSection.innerHTML = `<h2>${data.comments.title}</h2>`; // セクションタイトル

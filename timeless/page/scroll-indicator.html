@@ -1,142 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Scroll Indicator with Responsive Position</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: flex-end;
-      height: 100vh;
-      background: transparent;
-      overflow: hidden;
-    }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll Indicator with Responsive Position</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 100vh;
+        background: transparent;
+        overflow: hidden;
+      }
 
-    .unique-scroll-indicator-wrapper {
-      display: inline-block;
-      text-align: center;
-      pointer-events: none;
-      background: transparent;
-      position: absolute;
-      bottom: 20vh; /* 下から1/5（20%）の位置に固定 */
-      transform: translateX(-50%);
-      left: 50%;
-    }
+      .unique-scroll-indicator-wrapper {
+        display: inline-block;
+        text-align: center;
+        pointer-events: none;
+        background: transparent;
+        position: absolute;
+        bottom: 20vh; /* 下から1/5（20%）の位置に固定 */
+        transform: translateX(-50%);
+        left: 50%;
+      }
 
-    .unique-container {
-      display: inline-block;
-      text-align: center;
-      background-color: transparent;
-    }
+      .unique-container {
+        display: inline-block;
+        text-align: center;
+        background-color: transparent;
+      }
 
-    .unique-text {
-      display: block;
-      margin-bottom: 5px;
-      color: black;
-      font-family: Arial, sans-serif;
-      font-size: 24px;
-    }
+      .unique-text {
+        display: block;
+        margin-bottom: 5px;
+        color: white;
+        font-family: Arial, sans-serif;
+        font-size: 24px;
+      }
 
-    .unique-chevron {
-      position: relative;
-      width: 42px;
-      height: 12px;
-      opacity: 0;
-      margin: 10px auto;
-      transform: scale3d(0.5, 0.5, 0.5);
-      background-color: transparent;
-      animation: uniqueMove 3s ease-out infinite;
-    }
-
-    .unique-chevron:nth-child(3) {
-      animation-delay: 0.5s;
-    }
-
-    .unique-chevron:nth-child(2) {
-      animation-delay: 1s;
-    }
-
-    .unique-chevron:first-child {
-      animation-delay: 1.5s;
-    }
-
-    .unique-chevron:before,
-    .unique-chevron:after {
-      content: ' ';
-      position: absolute;
-      top: 0;
-      height: 100%;
-      width: 51%;
-      background-color: black;
-    }
-
-    .unique-chevron:before {
-      left: 0;
-      transform: skew(0deg, 30deg);
-    }
-
-    .unique-chevron:after {
-      right: 0;
-      width: 50%;
-      transform: skew(0deg, -30deg);
-    }
-
-    @keyframes uniqueMove {
-      0% {
+      .unique-chevron {
+        position: relative;
+        width: 42px;
+        height: 12px;
         opacity: 0;
-        transform: translateY(0) scale3d(0.5, 0.5, 0.5);
+        margin: 10px auto;
+        transform: scale3d(0.5, 0.5, 0.5);
+        background-color: transparent;
+        animation: uniqueMove 3s ease-out infinite;
       }
-      25% {
-        opacity: 1;
-      }
-      33% {
-        opacity: 1;
-        transform: translateY(30px);
-      }
-      67% {
-        opacity: 1;
-        transform: translateY(40px);
-      }
-      100% {
-        opacity: 0;
-        transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
-      }
-    }
 
-    .unique-hidden {
-      display: none;
-    }
-  </style>
-</head>
-<body>
+      .unique-chevron:nth-child(3) {
+        animation-delay: 0.5s;
+      }
 
-  <div class="unique-scroll-indicator-wrapper">
-    <div class="unique-container" id="uniqueScrollIndicator">
-      <span class="unique-text">Scroll Down</span>
-      <div class="unique-chevron"></div>
-      <div class="unique-chevron"></div>
-      <div class="unique-chevron"></div>
+      .unique-chevron:nth-child(2) {
+        animation-delay: 1s;
+      }
+
+      .unique-chevron:first-child {
+        animation-delay: 1.5s;
+      }
+
+      .unique-chevron:before,
+      .unique-chevron:after {
+        content: " ";
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 51%;
+        background-color: white;
+      }
+
+      .unique-chevron:before {
+        left: 0;
+        transform: skew(0deg, 30deg);
+      }
+
+      .unique-chevron:after {
+        right: 0;
+        width: 50%;
+        transform: skew(0deg, -30deg);
+      }
+
+      @keyframes uniqueMove {
+        0% {
+          opacity: 0;
+          transform: translateY(0) scale3d(0.5, 0.5, 0.5);
+        }
+        25% {
+          opacity: 1;
+        }
+        33% {
+          opacity: 1;
+          transform: translateY(30px);
+        }
+        67% {
+          opacity: 1;
+          transform: translateY(40px);
+        }
+        100% {
+          opacity: 0;
+          transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+        }
+      }
+
+      .unique-hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="unique-scroll-indicator-wrapper">
+      <div class="unique-container" id="uniqueScrollIndicator">
+        <span class="unique-text">Scroll Down</span>
+        <div class="unique-chevron"></div>
+        <div class="unique-chevron"></div>
+        <div class="unique-chevron"></div>
+      </div>
     </div>
-  </div>
 
-  <script>
-    // 親ページのスクロールを検出してフェードアウト
-    window.parent.addEventListener('scroll', function() {
-      const uniqueScrollIndicator = document.getElementById('uniqueScrollIndicator');
-      
-      uniqueScrollIndicator.style.transition = 'opacity 2s ease';
-      uniqueScrollIndicator.style.opacity = '0';
-      
-      // 2秒後にdisplay: noneを適用
-      setTimeout(function() {
-        uniqueScrollIndicator.style.display = 'none';
-      }, 2000);
-    });
-  </script>
+    <script>
+      // 親ページのスクロールを検出してフェードアウト
+      window.parent.addEventListener("scroll", function () {
+        const uniqueScrollIndicator = document.getElementById(
+          "uniqueScrollIndicator"
+        );
 
-</body>
+        uniqueScrollIndicator.style.transition = "opacity 2s ease";
+        uniqueScrollIndicator.style.opacity = "0";
+
+        // 2秒後にdisplay: noneを適用
+        setTimeout(function () {
+          uniqueScrollIndicator.style.display = "none";
+        }, 2000);
+      });
+    </script>
+  </body>
 </html>
