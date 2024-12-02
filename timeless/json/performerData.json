@@ -263,7 +263,7 @@
     },
     {
       "id": "030",
-      "name": "まる",
+      "name": "まる（アシスタント）",
       "instagram": "maru__desu__",
       "whatIsDance": "自分の鏡",
       "choreographerMessage": "踊りながら自分にも言い聞かせて、頑張ろうって背中を押してくれる作品です。\n私がこの人についていきたいと思う理由が伝わるのではと思っています。",
@@ -272,7 +272,7 @@
     },
     {
       "id": "031",
-      "name": "kizuku",
+      "name": "kizuku（GUEST）",
       "instagram": "",
       "whatIsDance": "自由",
       "choreographerMessage": "内側の深いところに響く振り、構成。\nみんなの表現が素敵な作品です！",
@@ -452,7 +452,7 @@
     },
     {
       "id": "051",
-      "name": "杉山文乃",
+      "name": "杉山文乃（アシスタント）",
       "instagram": "ayano_sugichan",
       "whatIsDance": "デトックス",
       "choreographerMessage": "1公演、1分、1秒、1振り、1動作、1瞬を誰よりも大切に。\n蘭さんの作る\"進撃の巨人\"を踊れること。踊るオタク伊藤蘭に出会えたことに感謝。\n蘭さん…このナンバーを作ってくれて、ありがとうございます…",
@@ -875,7 +875,7 @@
     },
     {
       "id": "102",
-      "name": "久保澄恵",
+      "name": "久保澄恵（GUEST）",
       "instagram": "kubo_sumie",
       "whatIsDance": "自分らしくいられる居場所",
       "choreographerMessage": "同じDanceCompanyに所属する周石の単独作品に初めて参加させてもらい、ドキドキ半分ワクワク半分！一緒に踊りたい人たちと踊ることができて嬉しいです！",
@@ -965,7 +965,7 @@
     },
     {
       "id": "114",
-      "name": "原田恵実",
+      "name": "原田恵実（GUEST）",
       "instagram": "ME6UMIHARADA",
       "whatIsDance": "人となり",
       "choreographerMessage": "いつも通りの自分を受け入れてくれてありがとうございます！",
@@ -1037,7 +1037,7 @@
     },
     {
       "id": "122",
-      "name": "髙橋萌",
+      "name": "髙橋萌（GUEST）",
       "instagram": "",
       "whatIsDance": "☺︎",
       "choreographerMessage": "歌詞に込められた想いを表現できるように頑張ります！",
@@ -1046,12 +1046,66 @@
     },
     {
       "id": "123",
-      "name": "米内理沙",
+      "name": "米内理沙（GUEST）",
       "instagram": "riisa_mona",
       "whatIsDance": "",
       "choreographerMessage": "",
       "messageToAudience": "",
       "photo": "photo/photo/performer/123/123.jpeg"
+    },
+    {
+      "id": "124",
+      "name": "dayo",
+      "instagram": "",
+      "whatIsDance": "",
+      "choreographerMessage": "",
+      "messageToAudience": "",
+      "photo": "photo/photo/performer/124/124.jpeg"
+    },
+    {
+      "id": "125",
+      "name": "AIMI",
+      "instagram": "",
+      "whatIsDance": "",
+      "choreographerMessage": "",
+      "messageToAudience": "",
+      "photo": "photo/photo/performer/125/125.jpeg"
+    },
+    {
+      "id": "126",
+      "name": "CHIHIRO",
+      "instagram": "",
+      "whatIsDance": "",
+      "choreographerMessage": "",
+      "messageToAudience": "",
+      "photo": "photo/photo/performer/126/126.jpeg"
+    },
+    {
+      "id": "127",
+      "name": "Risa",
+      "instagram": "",
+      "whatIsDance": "",
+      "choreographerMessage": "",
+      "messageToAudience": "",
+      "photo": "photo/photo/performer/127/127.jpeg"
+    },
+    {
+      "id": "128",
+      "name": "Tokiwa",
+      "instagram": "",
+      "whatIsDance": "",
+      "choreographerMessage": "",
+      "messageToAudience": "",
+      "photo": "photo/photo/performer/128/128.jpeg"
+    },
+    {
+      "id": "129",
+      "name": "MIYU",
+      "instagram": "",
+      "whatIsDance": "",
+      "choreographerMessage": "",
+      "messageToAudience": "",
+      "photo": "photo/photo/performer/129/129.jpeg"
     }
   ]
 }
