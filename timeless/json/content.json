@@ -18,6 +18,7 @@
   },
   "numbers": [
     {
+      "id": "number 1",
       "title": "Come enjoy the madness",
       "choreographer": "谷本有紀",
       "bioContent": "香川県出身。大学進学を機に18歳で上京後ジャズダンスと出会い本格的にダンスを始める。以後、公演やイベント、CM、ミュージックビデオなど多数出演。現在は都内のスタジオでインストラクターを務めながら公演の振付やミュージカルの振付助手としても精力的に活動中。<br><br>○レッスン情報<br>毎週水曜日<br>DANCEWORKS 14:20-15:50<br>NOA池袋校 17:30-18:55<br>",
@@ -36,6 +37,7 @@
       "photo": "photo/photo/choreo/jpeg/001.jpg"
     },
     {
+      "id": "number 2",
       "title": "明日へ",
       "choreographer": "原周石",
       "bioContent": "4歳より長野県の白鳥バレエ学園にてクラシックバレエを学ぶ。大学進学後、ダンスと出会う。舞台のアンサンブルダンサーやバックダンサー、某大手テーマパークのダンサーなどの経験を経て現在に至る。イベントのコレオグラファーやゲストダンサーとしても活動中。2021年1月高田馬場、2023年5月中野にレンタルスタジオをオープン。<br><br>lesson info<br>木曜日 20:00〜22:30 studio arty",
@@ -60,6 +62,7 @@
       "photo": "photo/photo/choreo/jpeg/016.jpg"
     },
     {
+      "id": "number 3",
       "title": "Guest Dancer",
       "choreographer": "かにえゆうき（GUEST）",
       "bioContent": "< 経歴 ><br>・中学から新体操を始め、様々大会で入賞を果たす。中学2年生の始めにダンスと出会い、ダンスの楽しさと幅広い表現力に惹かれる。そのダンスの魅力を新体操に取り入れ、私の強みであるしなやかさと表現力をさらに磨き、私にしか出せない物を作り出していき、またチーム為にもその表現力を広める。高校卒業後、ダンスを1から学び、東海地方で活動し、その2年後上京。今では、HIPHOP・Jazz・contemporaryなど様々なジャンルを学び、アクロバットの要素を取り入れながら、jazzを主軸に繊細且つしなやかな表現力を重きに置き、舞台やイベント、振付師などで活動中。<br><br><出演経歴><br>・TOP' S &  BOTTOM' S 2020  演出 : 渡辺 晃    出演 : ダンサー<br>・X Player  2020  演出 : 渡辺 晃     出演 : キルロ・ポーラ 役<br>・ALIVE STAGE  外伝   ZIX STAGE「 Break  It！」                                                        演出 : 野元 準也  出演 : アンサンブル  &  ダンサー       <br>・TBS   ミュージカル舞台   「 衛生 」 リズム&バキューム                                                脚本 & 演出 : 福原 充則      出演 :  ダンサー<br>・ALIVE  STAGE    EP5  「 天獄 」 君死にたまふことなかれ                                        演出 : 鄭 光誠      出演 : ダンサー                                                                                                     <br><br>・UQ  mobile   2019   エキストラダンサー出演<br><br>・2017年、2018年     ナガシマゾンビアイランド    ゾンビダンサー出演<br>・NISSAN  INTELLIGENT  MOBILITY    大感謝祭  2019                                             オープニングミュージカルダンサー出演<br>・VAZZROCK  LIVE2021    バックダンサー出演<br>・TSUKIPRO LIVE 2022 WINTER CARNIVAL    バックダンサー出演<br><br>< 入賞経歴 ><br>・2012年度 全日本ジュニア新体操選手権大会  団体競技   入賞<br>・2015年度  全国高等学校総合体育大会新体操    団体競技    入賞",
@@ -70,6 +73,7 @@
       "photo": "photo/photo/choreo/jpeg/guest1.jpg"
     },
     {
+      "id": "number 4",
       "title": "Guest Dancer",
       "choreographer": "KAEDE+かにえゆうき+Renju Ando（GUEST）",
       "bioContent": "KAEDE<br>大阪出身で現在は東京を中心にクラスや代講、ナンバー出展、チームでのイベント出演、バックダンサーなどで主に活動。<br>ダンス歴は18年。<br><br>LIVEのバックアップ、映画やMVのスタンドインなど様々な形でダンスに携わり活動を行っている。<br><br>かにえゆうき<br>中学から新体操を始め、様々大会で入賞を果たす。中学2年生の始めにダンスと出会い、ダンスの楽しさと幅広い表現力に惹かれる。そのダンスの魅力を新体操に取り入れ、私の強みであるしなやかさと表現力をさらに磨き、私にしか出せない物を作り出していき、またチーム為にもその表現力を広める。高校卒業後、ダンスを1から学び、東海地方で活動し、その2年後上京。今では、HIPHOP・Jazz・contemporaryなど様々なジャンルを学び、アクロバットの要素を取り入れながら、jazzを主軸に繊細且つしなやかな表現力を重きに置き、舞台やイベント、振付師などで活動中。<br><br>Renju Ando<br>ダンス歴9年。<br>東京都内・神奈川を中心にクラスや代講、ナンバー出展、バックダンサーアシスタントなどが主な活動。<br><br>パックダンサーとしてはLIVEのバックアップから舞台などのアンサンブル、Youtube Fanfestなど幅広い媒体で行なっている。<br><br>ここ数年は邦楽中心にジャンルに縛られない世界観を持ちながら、ソロでのshowcaseなどにも力を入れている。<br>",
@@ -80,6 +84,7 @@
       "photo": "photo/photo/choreo/jpeg/guest2.jpg"
     },
     {
+      "id": "number 5",
       "title": "nalgae",
       "choreographer": "team ECRIN（GUEST）",
       "bioContent": "“新体操×ダンス”を日本から世界に<br>全国⼤会出場者や国際試合メダリストなど、<br>新体操のトップアスリートが集結。<br><br>新体操スキルをベースとした<br>ジャンルレスなパフォーマンスを創出し、<br>国内外で披露しています!<br><br>【主な出演経歴】<br><br>Legend Tokyo X -10th ANNIVERSARY FESTIVAL-<br>オープニングアクト ゲスト出演<br><br>America's Got Talent 2022セミファイナル出場<br>MPLUSPLUS パフォーマンス出場<br><br>WILL CHAMPIONSHIP 2022 第3回インドアラクロス日本選手権<br>ハーフタイムショー出演<br><br>日本テレビ24時間TVヒルナンデスteamスペシャルパフォーマンス<br>『明日晴れるかな』LEDリボン南原清隆さん　<br>指導・振付•出演<br><br>Bリーグ2022–23シーズン 茨城ロボッツ ホーム開幕戦<br>ハーフタイムショー出演<br><br>Bリーグ2022–23シーズン東京アルバルク開幕戦ハーフタイムショー出演<br><br>tokyo lights2023 9月/11月<br>MPLUSPLUS パフォーマンス出場<br><br>北島康介杯2024<br>MPLUSPLUS パフォーマンス出演<br><br>日比谷フェスティバル 2024<br>MPLUSPLUS パフォーマンス出演<br><br>SusHi Tech Tokyo 2024<br>MPLUSPLUS パフォーマンス出演<br><br>富士急ハイランド ダンスパフォーマンスショー　ゲスト出演<br><br>M++DANCERS one-man show Vol.0 「Birth of D」<br>M＋＋DANCERS 自主公演",
@@ -96,6 +101,7 @@
       "photo": "photo/photo/choreo/jpeg/guest4.jpg"
     },
     {
+      "id": "number 6",
       "title": "Joie",
       "choreographer": "JOIE（GUEST）",
       "bioContent": "5歳から高木学園にて中川博子よりクラシックバレエを学ぶ。<br>12歳、東京シティバレエ団研究所所属。表現する世界を更に知りたいと思い、歌唱や演技を学ぶ。ミュージカル葉っぱのフレディ出演。<br>その後、モダンダンス、チアダンスで入賞経験、TV出演、作品創りを経て、踊りを通して生まれるものや想像した世界をかたちにする事の楽しさを知る。現在はテーマパーク、ジャズダンスを中心にダンサーとして活動中。",
@@ -113,6 +119,7 @@
       "photo": "photo/photo/choreo/jpeg/011.jpg"
     },
     {
+      "id": "number 7",
       "title": "生きル。",
       "choreographer": "賀重/kasane",
       "bioContent": "京都出身。小・中学生は新体操選手として過ごし、高校入学と同時に創作ダンスに出会う。<br>全日本高校・大学ダンスフェスティバル(神戸) や、全国中学校・高等学校ダンスコンクール等の大会に出場、入賞。<br>その後、大学からJazzを始め、踊りの道に邁進する。<br><br>○レッスン情報<br>(月)20:30〜REI横浜校<br>(火)21:00〜NOA吉祥寺ANNEX校<br>(水)21:45〜NOA新宿校<br>(木)12:50〜REI渋谷駅前校<br>(金)20:50〜NOA駒沢校<br>",
@@ -139,6 +146,7 @@
       "photo": "photo/photo/choreo/jpeg/004.jpg"
     },
     {
+      "id": "number 8",
       "title": "ファイト！",
       "choreographer": "ayum!",
       "bioContent": "ジャズ・ヒップホップ・日本舞踊等<br>様々なジャンルと出逢い幅広くダンスを学ぶ。<br><br>舞台やレビューショー出演を経て<br>SMAP/ももいろクローバーZ等アーティストのMV.PV.LIVEやCM等に多数出演。<br><br>日本ジャズダンス芸術協会<br>JDAダンスコンクールにて審査員賞受賞。<br><br>現在ジャズダンスを中心に<br>熱く。大きく。温かく。を大切にしながら<br>フリーで活動中。<br><br>○レッスン情報<br>(火)20:00-22:00 / JewelDanceStudio<br>(水)13:30-15:00 / OnePlaceDanceStudio<br>(水)19:30-21:00 / 下北沢ART-BASE<br>(木)12:30-13:50 / NOA 中野校<br>(木)18:00-20:00 / JewelDanceStudio<br>(日)12:30-13:50 / NOA御茶ノ水校<br>(日)20:00-21:20 / WorldofDanceStudios<br><br>そのほか<br>WS不定期開催",
@@ -166,8 +174,8 @@
       ],
       "photo": "photo/photo/choreo/jpeg/010.jpg"
     },
-
     {
+      "id": "number 9",
       "title": "As long as...",
       "choreographer": "miu_______________",
       "bioContent": "4歳からダンスを初め、数々のジャンルを学ぶ。北海道から上京し、jazzを中心に様々なアーティストの各種メディアにMV出演、振付、モデル、バックダンサー等、活動の幅を広げている<br>近年ではLA留学を通してジャンルレスな表現を追求し、仲間と4人からなる自主公演(テ ト ラ)を行う。DAZZLEからなるイマーシブシアターにも出演中。<br><br>rocket punch Bubble up! DANCE Cover 吉本ミュージックチャンネル 振付 アシスタント<br>GARNiDELiA オトメの心得 アンサンブル出演<br>GARNiDELiA Halloween LIVE backdancer<br>ミセスオブザイヤー名古屋大会 ダンサー出演<br>ミセスオブザイヤー 神奈川大会 ダンサー出演<br>2021 年ジュリアナ東京 30 周年イベント ジュリアナガールズダンサー GARNiDELiA stellacage tour final 2021→2022 ″Duality Code″<br><br>【BMW THE 7 FORWARD】<br>7 Series closed room pre-vie in Tokyo dancer Best Artist 2022 日テレ ブラックビスケッツ Timing バックダンサー<br>【逃走中～お台場リベンジャーズ～【史上初の年越し「生逃走中」！】ジュリアナダンサー出演<br><br>【Nikon Z8】Cinematic Portrait Video 8K ポートレートムービー ダンサー<br>丸亀製麺 CM SHAKE up!ダンサー出演 GARNiDELiA 「暁桜」(中国語:破晓之樱) MV出演<br>水咲加奈 「終点」MV出演<br>imase 「Shine Out」 MV出演<br>アイナ・ジ・エンド×坂東祐大<br>〜創造〜 MV/CM出演<br>はせとも。「Manafis」バックダンサー振付<br>『Creator Dream Fes 2024 ~produced by Com.~』<br>in東京ドーム バックダンサー出演<br><br>《モデル受賞等》<br>PASHA STYLE 25作品認定<br>1X 4作品認定<br>闇の王展 2022 ~誘い~ モデル<br>東京七島新聞 七島新聞フォトコンテスト2022 大島賞 受賞 モデル<br>写真展 Tokyo models 2023 モデル<br>【Nikon Z8】Cinematic Portrait Video 8K ポートレートムービーモデル<br>「Portrait Biwak GREEN」<br>HASEO賞受賞<br>",
@@ -190,6 +198,7 @@
       "photo": "photo/photo/choreo/jpeg/003.jpg"
     },
     {
+      "id": "number 10",
       "title": "Guest Dancer",
       "choreographer": "渡辺謙典×土屋桃子（GUEST）",
       "bioContent": "▽出演情報▼<br><br>◆土屋桃子 自主公演 “Re-cored” 開催！！<br><br>2025年 5月5日(祝月)6日(祝火)<br>@江戸川区総合文化センター 大ホール<br><br>1500キャパの大ホールにて、約160名の出演者達と、3回公演を予定。<br>詳細はInstagram⇒ @re_cored._をご確認ください！<br>来年GWぜひお待ちしております！",
@@ -200,6 +209,7 @@
       "photo": "photo/photo/choreo/jpeg/guest5.jpg"
     },
     {
+      "id": "number 11",
       "title": "いってらっしゃい",
       "choreographer": "伊藤蘭",
       "bioContent": "【伊藤蘭プロフィール】<br>4歳よりクラシックバレエを習い様々なダンスを学ぶ。渡米経験を経て現在はDanceCompanyMKMDCに所属。”Dane”と”Life”をサポートする自身のオンラインサロン【ダンスを愛するすべての人へranitohonline.official】を立ち上げ安全で効果的な身体動作の指導に力を入れている。2022年より【衣装作家アイラモネア】として表現の幅を広げ衣装製作も請けおう。アニメと漫画とマカロンをこよなく愛する。<br>【ダンス経歴】<br>・LegendTokyo ​chapter2 ​東日本予選 ​優勝<br>・2016年、2018年 ニコニコ超パーティー2108 出演、振り付け、衣装デザイン担当<br>・2017年 映画『グレイテスト・ショーマン』来日イベント、ダンサー出演<br>・2018年 コンパスライブアリーナ 出演、振り付け<br>・2021年 フーヤコシュニエカバーコンテスト 優秀作品賞受賞<br>その他、ダンスイベントで多数振付作品出展<br><br>【衣装経歴】<br>・2018年 ニコニコ超パーティー2108 衣装デザイン担当<br>・2022年 𝑳𝑰𝑽𝑬 𝑻𝑶𝑼𝑹 2022『𝑮𝑹𝒆𝒆𝒆𝒆𝑵と不思議な大脱走』ダンサー衣装デザイン製作<br>・2022年 梅棒 14th WONDER『おどんろ』オープニングナンバー 多和田任益のみ衣装デザイン製作<br>・2022年 梅棒 15th“RE”PLAY 『シン・クロス ジンジャー ハリケーン』オープニングナンバー衣装デザイン製作<br>・2023年 ツアーファイナル『𝑮𝑹𝒆𝒆𝒆𝒆𝑵と不思議な大集合』ダンサー衣装デザイン製作<br>・2023年 スマホゲームアプリ<br>『ユアマジェスティ MAJESTIC LIVE 1st~3rd』シンガー衣装デザイン製作<br>・2023年 GReeeeN LIVE TOUR 2023「“The GAME”」衣装デザイン製作<br>【レッスン情報】<br>・NOA恵比寿校 火曜12:30~14:00<br>・NOA中野校 火曜20:00~21:30<br>・NOA新宿校 金曜17:00~18:30<br>・MAJOR目黒校 金曜19:50~21:50（2025年1月スタート）<br>・SHOJIN DANCE LABO ダンサーズトレーニングを担当。<br>",
@@ -231,6 +241,7 @@
       "photo": "photo/photo/choreo/jpeg/013.jpg"
     },
     {
+      "id": "number 12",
       "title": "Dancin' Dan(Me and MYShadow)",
       "choreographer": "松出直也＋弓野梨佳＋杉原由梨乃（GUEST）",
       "bioContent": "▽経歴▼<br>✴︎松出直也<br>幼少期よりバレエを始め14歳で渡英 Elmhurst School for Dance ・English National Ballet Schoolにて学ぶ。劇団四季研究所入所。CATS ミストフェリーズ役、ウェストサイド物語 ベイビージョン役他　20歳という若さでダンスキャプテンも務める。劇団四季を退団後、世界豪華客船に日本人ダンサーとして乗船。<br>現在はパフォーマーとして舞台やダンス公演に出演する他、振り付け、若手の育成に力を注いでいる。<br><br>✴︎弓野梨佳　kyuno rika<br>株式会社パシフィック・カンパニー所属(2012年より)<br>名倉ジャズダンススタジオカンパニーメンバーとして、名倉加代子氏に師事(2011年より)<br>2013年ミュージカル「SONG WRITERS」演出:岸谷五朗　にてミュージカル作品デビュー。以降ミュージカルを中心にコンサート、TV、CMなどの経験を経て、現在はアシスタントや振付などクリエイティブ陣として作品に関わることを増やしていっている。<br><br>✴︎杉原由梨乃<br>幼い頃からクラシックバレエや演劇の基礎を学び、高校の舞台芸術科を卒業。<br>劇団四季やUSJなどを経て、現在は、ダンサー、ミュージカル俳優、振付師、ダンスシューズのプロデュースなど、様々なポジションで活動中。<br>シアタージャズの指導者としても多くの支持を集め、次世代ダンサー、ミュージカル俳優の育成に尽力している。",
@@ -241,6 +252,7 @@
       "photo": "photo/photo/choreo/jpeg/guest3.jpg"
     },
     {
+      "id": "number 13",
       "title": "Frenesie des oiseaux noirs",
       "choreographer": "西川卓<br>（衣装制作：Ballet NeNe 神目聖奈）",
       "bioContent": "高校在学時に踊りと出会い地元長岡で始める。卒業後上京し名倉ジャズダンススタジオからダンスキャリアをスタートさせる。カンパニーとしての活動を経て、新上裕也にJazzDanceを師事。その後フリーとなってJazz、contemporary、Ballet、ジャンルの垣根を越えて様々な舞台で踊る。現在contemporaryを二見一幸に師事、Classic Balletを、山口智子、吉本慎吾に師事している。洗練された肉体美と、息をのむ程に鍛え上げられた機能美が融合するダンサー。踊りだけで誰もが納得する「ダンス力」「存在感」は群を抜く。近年では宝塚歌劇団、ミュージカルなど振付や作品提供など活動の幅を広げている。",
@@ -266,6 +278,7 @@
       "photo": "photo/photo/choreo/jpeg/009.jpg"
     },
     {
+      "id": "number 14",
       "title": "Gravity",
       "choreographer": "Naoki Nishikawa（GUEST）",
       "bioContent": "▽経歴▼<br>10歳からクラシックバレエを習い。後に17歳から独学でJAZZを始め数々のコンテストでソロでの受賞。<br>その後KAORIaliveに師事を受けMemorable Momentのメンバーとして2019年まで国内のみならず海外コンペティション受賞や海外公演などにも出演。<br><br>自身のチーム【ricordo】を2017年に結成しJAPAN DANCE DELIGHTにて準優勝を受賞。<br><br>現在は関西と関東に拠点を置きながらインストラクターや自らの舞台出演のみならず、フィギュアスケーターやアーティスティックスイミングなどのスポーツ選手への指導や振付などにも関わり多岐に渡り活動している。<br><br>《出演歴》<br>2012年 日本テレビ系列 スタードラフト会議<br>2013.2014年 KOBE COLLECTION & TOKYO RUNWAY ダンサー出演<br>2016年 BOLERO 2016「-モザイクの夢-」<br>2017年 東宝ミュージカル「ロミオ&ジュリエット」<br>2021年〜22年 梅棒 13th “RE”WORK 『風桶』<br>2023年　高橋洋子「月十夜」ダンサー出演<br><br>《入賞歴》<br>【TEAM】<br>OSAKA DANCE ATTACK 高校生の部 3位<br>THE UNITY vol.2 優勝<br>DANCE@HERO 4th SEASON 優勝<br>Legend TOKYO chapter.4 優勝<br>JAZZ SENSATION vol.4 優勝<br>TOKYO DANCE DELIGHT vol.16 準優勝<br>JAPAN DANCE DELIGHT FINAL vol.24 準優勝<br>CHIMERA A-SIDE DANCE FINAL 2022 準優勝<br><br>【Solo】<br>第62回 全国高等学校ダンスコンクール ソロ部門 優勝<br>TRUE SKOOL vol.244 優勝<br>TRUE SKOOL GRANDCHAMPIONSHIP 2018 優勝<br>WORLD OF DANCE OSAKA Upper部門 優勝<br><br>▽lesson info▼<br>不定期で東京にてマンツーマンやグループレッスン開催<br>Instagram(43Naoki)<br>または<br>公式LINE(naoki-pv-lesson)<br>にて情報配信中",
@@ -276,6 +289,7 @@
       "photo": "photo/photo/choreo/jpeg/guest6.jpg"
     },
     {
+      "id": "number 15",
       "title": "the red string of love",
       "choreographer": "新藤静香",
       "bioContent": "”カメレオン表現者”と呼ばれる、唯一無二の表現スタイリスト。<br>JAZZを軸に、ストリート、ベリー、体幹トレーニングなどの豊富な経験を融合させ、<br>無限にある景色や感情を、身体を通してリアルに映し出していく。<br><br>強靭なボデイコントロール力、ハートフルな表現力、演技力、指導力には定評があり、<br>老若男女ジャンル問わず、病みつきになるファンが多い。<br><br>単独自主公演”ノスタルジックス”や、Filmate Film.公演”契約”では、自身で演出、脚本を担う。それだけに止まらず、MC、歌手、ナレーションとしても、才能を発揮。<br><br>◯Lesson<br>・木曜日13:00-14:15@NOAダンスアカデミー吉祥寺校(オープンクラス)<br>・木曜日19:10-20:10/20:20-21:35@ダンススタジオLOVEBONDS(キッズ)<br>・金曜日17:30-18:30/18:30-19:30@ラザリス武蔵浦和(キッズ)<br>・日曜日17:30-18:50@NOAダンスアカデミー池袋校(オープンクラス)<br>・日曜日21:00-22:30@ラザリス武蔵浦和(高校生以上)<br><br>◯出演情報<br>2023年11月23日〜12月15日<br>ego:pression presents イマーシブシアター<br>“MISSION8” B-ily役<br>",
