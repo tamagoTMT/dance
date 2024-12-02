@@ -1016,6 +1016,42 @@
       "choreographerMessage": "この作品を踊るのが2回目になるので前回よりもさらにパワフルに熱く表現できるように頑張ります！",
       "messageToAudience": "本日はご来場いただきまして誠にありがとうございます！皆様の心に残り、明日の活力になれる公演になればとても嬉しく思います。是非最後までお楽しみください！！",
       "photo": "photo/photo/performer/119/119.jpeg"
+    },
+    {
+      "id": "120",
+      "name": "磯田真由",
+      "instagram": "myisd_gram",
+      "whatIsDance": "人生を彩ってくれるもの。",
+      "choreographerMessage": "自分のダンス人生において、これまでこれからもとても大切な作品です。",
+      "messageToAudience": "素敵な時間を過ごしてください。",
+      "photo": "photo/photo/performer/120/120.jpeg"
+    },
+    {
+      "id": "121",
+      "name": "青木李奈",
+      "instagram": "r_0731_a",
+      "whatIsDance": "一期一会な元気の源",
+      "choreographerMessage": "自分が大切にしたいものを、そっと優しく、力強く、照らしてくれるような作品です<br>周石さん、皆さんに出会えたから今の自分があります。いつもありがとうございます",
+      "messageToAudience": "心を込めてこの作品をお届けします<br>皆さまの明日への活力になりますように",
+      "photo": "photo/photo/performer/121/121.jpeg"
+    },
+    {
+      "id": "122",
+      "name": "髙橋萌",
+      "instagram": "",
+      "whatIsDance": "☺︎",
+      "choreographerMessage": "歌詞に込められた想いを表現できるように頑張ります！",
+      "messageToAudience": "みなさまの「明日」も、素敵な日になりますように。",
+      "photo": "photo/photo/performer/122/122.jpeg"
+    },
+    {
+      "id": "123",
+      "name": "米内理沙",
+      "instagram": "riisa_mona",
+      "whatIsDance": "",
+      "choreographerMessage": "",
+      "messageToAudience": "",
+      "photo": "photo/photo/performer/123/123.jpeg"
     }
   ]
 }
