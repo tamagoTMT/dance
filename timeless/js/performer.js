@@ -30,7 +30,6 @@ document.addEventListener("DOMContentLoaded", function () {
 // 出演者の情報をレンダリングする関数
 function renderPerformers(performers, container) {
   performers.forEach((performer, index) => {
-    console.log(performer.id);
     const performerDiv = document.createElement("div");
     performerDiv.className = "performer-item";
 
