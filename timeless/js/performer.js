@@ -58,7 +58,7 @@ function renderPerformers(performers, container) {
             <p><strong>あなたにとってダンスとは:</strong> ${
               performer.whatIsDance
             }</p>
-            <p><strong>振付者の印象やメッセージ:</strong> ${
+            <p><strong>今回の作品や振付師に対しての想い:</strong> ${
               performer.choreographerMessage
             }</p>
             <p><strong>ご来場のお客様へ一言:</strong> ${
