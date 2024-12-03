@@ -110,7 +110,7 @@
     },
     {
       "id": "013",
-      "name": "神目聖奈",
+      "name": "神目聖奈（衣装アシスタント）",
       "instagram": "seinas.gram",
       "whatIsDance": "難しいです、、。\nその一瞬でしか見えない景色があると思うので、毎回1回を大事にこの公演をお届けしたいと思います！",
       "choreographerMessage": "もう長らくお世話になっている卓さん。\nいつも暖かく見守ってくださり、向き合ってくださいます。世界観を大事にお届けしたいです。\n初めて出演するゆきさんnumber。\nクラスでもリハでもたくさん伝えていただくことを、自分なりに最大限魅せてゆきたいです。",
@@ -883,6 +883,24 @@
       "photo": "photo/photo/performer/102/102.jpeg"
     },
     {
+      "id": "103",
+      "name": "髙橋萌（GUEST）",
+      "instagram": "",
+      "whatIsDance": "☺︎",
+      "choreographerMessage": "歌詞に込められた想いを表現できるように頑張ります！",
+      "messageToAudience": "みなさまの「明日」も、素敵な日になりますように。",
+      "photo": "photo/photo/performer/103/103.jpeg"
+    },
+    {
+      "id": "104",
+      "name": "米内理沙（GUEST）",
+      "instagram": "riisa_mona",
+      "whatIsDance": "自分を表現する術",
+      "choreographerMessage": "初演には出ておらず今回初参加です！いい意味でスパイスになるような踊りができるよう頑張ります！",
+      "messageToAudience": "この度は足を運んでくだからありがとうございます！！年末も近付いてきており個人的には2024年ラスト公演なので心を込めて踊ります。少しでも素敵な時間を過ごせますよう、、♡",
+      "photo": "photo/photo/performer/104/104.jpeg"
+    },
+    {
       "id": "105",
       "name": "なない",
       "instagram": "nanaiszkiii",
@@ -1036,39 +1054,21 @@
       "photo": "photo/photo/performer/121/121.jpeg"
     },
     {
-      "id": "103",
-      "name": "髙橋萌（GUEST）",
-      "instagram": "",
-      "whatIsDance": "☺︎",
-      "choreographerMessage": "歌詞に込められた想いを表現できるように頑張ります！",
-      "messageToAudience": "みなさまの「明日」も、素敵な日になりますように。",
-      "photo": "photo/photo/performer/103/103.jpeg"
-    },
-    {
-      "id": "104",
-      "name": "米内理沙（GUEST）",
-      "instagram": "riisa_mona",
-      "whatIsDance": "",
-      "choreographerMessage": "",
-      "messageToAudience": "",
-      "photo": "photo/photo/performer/104/104.jpeg"
-    },
-    {
       "id": "124",
       "name": "dayo",
-      "instagram": "",
-      "whatIsDance": "",
-      "choreographerMessage": "",
-      "messageToAudience": "",
+      "instagram": "dayo._.dayo",
+      "whatIsDance": "成長の糧",
+      "choreographerMessage": "大好きなCirque du soleilへのリスペクトを込めながら、リスペクトするチームの皆んなと力を合わせて今、自分が見てみたい情景を描いた作品です",
+      "messageToAudience": "team ECRiNは新体操とダンスを掛け合わせたチームです。今回はサーカスCirque du ソレイユを題材に作品を手掛けました。そこはまるで美術館。動く展示品の数々を終始お楽しみいただけたらと思います。唯一無二の世界観、存分にお届けします。",
       "photo": "photo/photo/performer/124/124.jpeg"
     },
     {
       "id": "125",
       "name": "AIMI",
-      "instagram": "",
-      "whatIsDance": "",
-      "choreographerMessage": "",
-      "messageToAudience": "",
+      "instagram": "aimi.official",
+      "whatIsDance": "自分の人生を輝かせてくれる存在",
+      "choreographerMessage": "dayoさん<br><br>dayoさんが大切にされているもの、想いをひしひしと感じながらリハを重ねておりますが、teamECRiN ver.として再度生みなおしてくださり本当に感謝の気持ちでいっぱいです！この作品をじっくりみれば見るほど味がでてくる深みのある作品だなと思います！<br>しっかりと4分間堪能しながら踊らせて頂きます！",
+      "messageToAudience": "皆様<br>本日はご来場くださり誠にありがとうございます！各振付師出演者の生み出した作品をどうか自由に感じ取って頂き、堪能して頂けたら全員幸せです！<br><br>皆様の目に耳に心に残る様精一杯踊らせて頂きます！<br>どうぞごゆっくりご覧ください！",
       "photo": "photo/photo/performer/125/125.jpeg"
     },
     {
@@ -1101,10 +1101,10 @@
     {
       "id": "129",
       "name": "MIYU",
-      "instagram": "",
-      "whatIsDance": "",
-      "choreographerMessage": "",
-      "messageToAudience": "",
+      "instagram": "miyu._.ooo",
+      "whatIsDance": "感情を表現するもの",
+      "choreographerMessage": "dayoさんのつくってくださったアレグリアの空気感は残しつつ、ECRiNらしさのある作品になるように頑張ります！",
+      "messageToAudience": "この作品を通じて、ECRiNに興味を持ってもらえるよう、全力でパフォーマンスします！",
       "photo": "photo/photo/performer/129/129.jpeg"
     }
   ]
