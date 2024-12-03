@@ -12,10 +12,14 @@
     width: 100%;
     z-index: 1000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    overflow-x: auto;
+    white-space: nowrap;
 }
 
 .tab4__item {
-    flex: 1;
+    flex: 0 0 auto;
+    text-align: center;
+    min-width: 100px;
 }
 
 .tab4__link {
