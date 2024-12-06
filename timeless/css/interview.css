@@ -1,19 +1,44 @@
 .section {
-    opacity: 1; /* セクションを完全に表示 */
-    padding: 0;
-
+  opacity: 1; /* セクションを完全に表示 */
+  padding: 0;
 }
 .interview-item {
-    background-color: white; /* 背景色を白に設定 */
-	background-color: rgba(255, 255, 255, 0.9);
-	border-radius: 10px;
-	padding-left: 20px; /* 左側の余白を追加 */
-	padding-right: 20px; /* 右側の余白を追加 */
+  background-color: white; /* 背景色を白に設定 */
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding-left: 20px; /* 左側の余白を追加 */
+  padding-right: 20px; /* 右側の余白を追加 */
 }
 .toc {
-    background-color: #f9f9f9; /* 目次の背景色を設定 */
-    border: 1px solid #ddd; /* 目次の境界線を設定 */
-    padding: 10px; /* 目次の内側余白を設定 */
-    margin-bottom: 20px; /* 目次の下部余白を設定 */
-    border-radius: 5px; /* 目次の角を丸くする */
+  background-color: #f9f9f9; /* 目次の背景色を設定 */
+  border: 1px solid #ddd; /* 目次の境界線を設定 */
+  padding: 10px; /* 目次の内側余白を設定 */
+  margin-bottom: 20px; /* 目次の下部余白を設定 */
+  border-radius: 5px; /* 目次の角を丸くする */
+}
+.content {
+  font-family: "Arial", sans-serif; /* 読みやすいフォント */
+  color: #333; /* 濃いグレーのテキストカラー */
+  background-color: #f4f4f4; /* 薄いグレーの背景色 */
+}
+
+.content h3 {
+  color: #0077cc; /* 見出しの色 */
+  margin-bottom: 10px; /* 見出し下の余白 */
+}
+
+.content strong {
+  font-weight: bold; /* 太字で表示 */
+  color: #0055aa; /* 色を少し濃く */
+}
+
+.content p {
+  line-height: 1.6; /* 行間を広げる */
+  margin-bottom: 20px; /* 段落間の余白 */
+}
+
+.content br {
+  content: ""; /* 改行の扱いを調整 */
+  margin: 5px 0; /* 改行の上下マージン */
+  display: block; /* 改行要素をブロックとして扱う */
 }
