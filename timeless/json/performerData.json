@@ -1083,19 +1083,19 @@
     {
       "id": "127",
       "name": "Risa",
-      "instagram": "",
-      "whatIsDance": "",
-      "choreographerMessage": "",
-      "messageToAudience": "",
+      "instagram": "risa.ig.jp",
+      "whatIsDance": "空間への味付け",
+      "choreographerMessage": "今回の作品は、5月にdayo numberで出展した作品のteam ECRiNバージョンになります。多くはヒップホップ、ストリート調の作品のため、今回のジャズベースの作品は私たちにとって大きな挑戦でもあります。チームのパワーを出しながらも、振付のdayoのテーマを表現できたらと思います。",
+      "messageToAudience": "team ECRiNメンバーのもつ身体能力の高さと表現力、新体操手具のダイナミックな演出。目を離さずにご覧ください！",
       "photo": "photo/photo/performer/127/127.jpeg"
     },
     {
       "id": "128",
       "name": "Tokiwa",
-      "instagram": "",
-      "whatIsDance": "",
-      "choreographerMessage": "",
-      "messageToAudience": "",
+      "instagram": "tockey_wawawa",
+      "whatIsDance": "自分を表現する手段",
+      "choreographerMessage": "このチームへの愛",
+      "messageToAudience": "ダンスと新体操で生まれる芸術表現を観てください",
       "photo": "photo/photo/performer/128/128.jpeg"
     },
     {
@@ -1106,6 +1106,15 @@
       "choreographerMessage": "dayoさんのつくってくださったアレグリアの空気感は残しつつ、ECRiNらしさのある作品になるように頑張ります！",
       "messageToAudience": "この作品を通じて、ECRiNに興味を持ってもらえるよう、全力でパフォーマンスします！",
       "photo": "photo/photo/performer/129/129.jpeg"
+    },
+    {
+      "id": "130",
+      "name": "小夜かなこ",
+      "instagram": "",
+      "whatIsDance": "",
+      "choreographerMessage": "",
+      "messageToAudience": "",
+      "photo": "photo/photo/performer/130/130.jpeg"
     }
   ]
 }
