@@ -178,7 +178,7 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   const renderContent = (data) => {
-    // 運営コメントセクション 下記　茂礼英輝編集箇所
+    // 運営コメントセクション 下記「181~235」茂礼英輝編集箇所
    const commentsSection = document.querySelector("#comments .content");
 
 // セクションタイトル
@@ -203,6 +203,35 @@ document.addEventListener("DOMContentLoaded", function () {
       `;
       
       scrollTrack.appendChild(slide);
+
+      // オートスライド秒数
+      const AUTO_SLIDE_INTERVAL = 5000; // 5秒
+
+      const track = document.querySelector(".comments-scroll-track");
+      const slides = document.querySelectorAll(".comment-slide");
+
+      // スライド1枚の幅（gap含む）
+      function getSlideWidth() {
+        return slides[0].offsetWidth + 16; 
+      }
+
+      let currentIndex = 0;
+
+      setInterval(() => {
+        const slideWidth = getSlideWidth();
+        currentIndex++;
+
+        if (currentIndex >= slides.length) {
+          currentIndex = 0;
+        }
+
+        track.scrollTo({
+          left: slideWidth * currentIndex,
+          behavior: "smooth"
+        });
+
+      }, AUTO_SLIDE_INTERVAL);
+
     });
 
     // 目次
