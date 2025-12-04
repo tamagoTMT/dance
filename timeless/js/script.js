@@ -178,29 +178,31 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   const renderContent = (data) => {
-    // 運営コメントセクション
-    const commentsSection = document.querySelector("#comments .content");
-    commentsSection.innerHTML = `<h2>${data.comments.title}</h2>`; // セクションタイトル
+    // 運営コメントセクション 下記　茂礼英輝編集箇所
+   const commentsSection = document.querySelector("#comments .content");
 
-    // 複数の運営メンバーのコメントを表示
+// セクションタイトル
+    commentsSection.innerHTML = `<h2>${data.comments.title}</h2>`;
+
+// 横スクロール用のラッパーを生成
+    const scrollTrack = document.createElement("div");
+    scrollTrack.classList.add("comments-scroll-track");
+    commentsSection.appendChild(scrollTrack);
+
+// 運営メンバーをスライドとして追加
     data.comments.members.forEach((member) => {
-      commentsSection.innerHTML += `
-                <div class="comment-wrapper">
-                    ${
-                      member.image
-                        ? `<img src="../${member.image}" alt="${member.name}" class="comment-photo">`
-                        : ""
-                    }
-                    <p><strong>${member.name}</strong>
-                    ${
-                      member.instagram
-                        ? renderInstagramLinks([member.instagram])
-                        : ""
-                    }
-                    </p>
-                    <p>${member.text}</p>
-                </div>
-            `;
+      const slide = document.createElement("div");
+      slide.classList.add("comment-slide");
+
+      slide.innerHTML = `
+      ${member.image ? `<img src="../${member.image}" alt="${member.name}" class="comment-photo">` : ""}
+      <p><strong>${member.name}</strong>
+      ${member.instagram ? renderInstagramLinks([member.instagram]) : ""}
+      </p>
+      <p>${member.text}</p>
+      `;
+      
+      scrollTrack.appendChild(slide);
     });
 
     // 目次
