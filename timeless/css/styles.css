@@ -247,3 +247,64 @@ a {
   min-width: 120px; /* 担当名の幅を設定 */
   padding-right: 10px; /* 担当名と名前の間の間隔を調整 */
 }
+
+.comments-scroll-track {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding: 10px 0 20px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* 横スクロールのレール部分はそのまま */
+.comments-scroll-track {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding: 10px 0 20px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* スクロールバー非表示 */
+.comments-scroll-track::-webkit-scrollbar {
+  display: none;
+}
+
+/*　下記　茂礼編集箇所*/
+/* カード本体 */
+.comment-slide {
+  width: 100%;         
+  flex-shrink: 0;
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 12px;
+  scroll-snap-align: start;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+
+  /* 中身を中央揃えに */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* 写真は変更せず中央に置く */
+.comment-photo {
+  display: block;
+  margin: 0 auto 12px;   /* 中央寄せ & 下に余白 */
+  border-radius: 12px;
+}
+
+/* コメント文章をコンパクトに中央へ */
+.comment-slide p {
+  max-width: 85%;
+  margin: 6px auto;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.comment-slide p strong {
+  font-size: 1.05rem;
+}
